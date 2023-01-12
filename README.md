@@ -34,3 +34,19 @@ Here, I using the wine dataset to predict the quality of wine.
 - alcohol : Percent of alcohol present in wine.
 
 - quality : Quality of the wine
+
+## Deployment in AWS-Ec2:
+
+I deployed the model in AWS using ec2 instance.
+- I create a new ec2 instance and create new key.
+- I add one more security group to allow permissions.
+- After that open the winscp and enter the host name and user name then it divide into two pages.
+- Go to project directory and upload all the required files to winscp window.
+- Then open puttygen and download all the required libraries.
+- It is very important to update using sudo. 
+- After downloading all the libraries run the app.py using "python3 app.py" command.
+- Then it starts running.
+- Then go to AWS page--ec2 instance--connect--copy the generated url.
+- paste the url on new window and add 8080 port to run our model.
+- And it load the below page..
+![Screenshot (10)](https://user-images.githubusercontent.com/103427929/212075031-ec113564-7e22-4f2a-826f-216e92581e75.png)
